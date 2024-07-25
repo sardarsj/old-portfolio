@@ -16,16 +16,16 @@ const Navbar = () => {
 
         <div>
           <ul className="flex">
-            <li className="p-3 hover:cursor-pointer hover:border-b hover:bg-neutral-700 rounded">
+            <li className="p-3 inline-block rounded-full font-semibold hover:scale-100 hover:bg-slate-500 hover:text-white cursor-pointer">
               About Me
             </li>
-            <li className="p-3 hover:cursor-pointer hover:border-b hover:bg-neutral-700 rounded">
+            <li className="p-3 inline-block rounded-full font-semibold hover:scale-100 hover:bg-neutral-800 hover:text-white cursor-pointer">
               Experience
             </li>
-            <li className="p-3 hover:cursor-pointer hover:border-b hover:bg-neutral-700 rounded">
+            <li className="p-3 inline-block rounded-full font-semibold hover:scale-100 hover:bg-slate-500 hover:text-white cursor-pointer">
               Projects
             </li>
-            <li className="p-3 hover:cursor-pointer hover:border-b hover:bg-neutral-500 rounded">
+            <li className="p-3 inline-block rounded-full font-semibold hover:scale-100 hover:bg-neutral-800 hover:text-white cursor-pointer">
               Technologies
             </li>
           </ul>

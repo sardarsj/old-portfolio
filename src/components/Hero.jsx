@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/profilepic.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col justify-center items-center lg:items-start">
             <motion.h1
               variants={container(0)}
               initial="hidden"
@@ -45,13 +45,13 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-2">
           <div className="flex justify-center">
-            <motion.img
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
-              alt="profilepic"
-            />
+              <motion.img
+                initial={{ x: 100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 1.2 }}
+                src={profilePic}
+                alt="profilepic"
+              />
           </div>
         </div>
       </div>
